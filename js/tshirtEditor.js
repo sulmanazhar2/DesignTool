@@ -20,7 +20,7 @@ var drawingMode = 0;
 var a, b;
 var theColor = theInput.value;
 var svgFolder = "img/svg/";
-var productImagesFolder = "img/ImagesForProducts/";
+var productImagesFolder = "img/";
 var Direction = {
   LEFT: 0,
   UP: 1,

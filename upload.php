@@ -36,7 +36,7 @@ if ($_FILES['file']['name'] != '') {
 
 
         $name = uniqid('image', true) . '.' . $extension;
-        $location = 'img/ImagesForProducts/' . $name;
+        $location = 'img/' . $name;
         move_uploaded_file($_FILES['file']['tmp_name'], $location);
         echo ' <img style="cursor:pointer;" class="img-polaroid" src="' . $location . '">';
     }
